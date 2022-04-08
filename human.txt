@@ -1,0 +1,35 @@
+
+
+Esercizio:ORDINARE UNA PIZZA
+
+Traccia:Dopo una lunga giornata passata al pc, ho proprio voglia di concedermi una bella pizza succulenta! Sì, ma quale? Fammi dare un occhio al listino… Va beh, è inutile, tanto alla fine ordino sempre la stessa: una classica prosciutto e funghi. La pizza arriva ancora fumante, chissà se riuscirò a mangiarla tutta!
+Di sicuro se ne avanzo una fetta devo ricordarmi di metterla in frigo, non come l’ultima volta! 
+
+
+
+1:Apro il browser
+
+2:Cerco una pizzeria
+  La pizzeria è aperta?
+    SI: Consulto il menù
+    NO: torno a Cerco una pizzeria
+3:Consulto il menù 
+    Ci sono pizze?
+        SI:-FINCHE (While) c'è almeno una pizza:
+			Leggo la prima pizza della lista
+			-E' prosciutto e funghi?
+			    SI: la ordino
+			    NO: depenno la pizza
+	    SENNO torno al cerco una pizzeria
+    ALTRIMENTI torno a Cerco una pizzeria
+
+4:Ritiro la pizza
+
+5:Mangio la pizza
+    -la finisco?
+        SI:
+        NO: -Se mi ricordo:
+                SI: La metto in frigo
+                NO: Marcisce
+
+6:FINE
